@@ -10,5 +10,5 @@ setup(name=npm_package['name'],
       author=npm_package['author'],
       author_email='jon.freder@gmail.com',
       url=npm_package['repository']['url'],
-      packages=['distutils', 'distutils.command'],
+      packages=['jupyter-tree-filter'],
      )

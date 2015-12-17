@@ -27,4 +27,6 @@ build/Release
 node_modules
 
 *.pyc
+MANIFEST
+dist
 
