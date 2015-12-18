@@ -11,4 +11,5 @@ setup(name=npm_package['name'],
       author_email='jon.freder@gmail.com',
       url=npm_package['repository']['url'],
       packages=['jupyter-tree-filter'],
+      include_package_data=True,
      )
