@@ -9,10 +9,10 @@ function filterRows(filterText) {
     });
 }
 
-export function load_ipython_extension(el) {
+export function load_ipython_extension() {
     let input = document.createElement('input');
     input.setAttribute('type', 'text');
-    el.appendChild(input);
+    document.querySelector('#notebook_list_header').appendChild(input);
     
     input.onkeyup = () => {
         filterRows(input.value);

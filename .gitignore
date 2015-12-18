@@ -30,3 +30,5 @@ node_modules
 MANIFEST
 dist
 
+*.egg-info
+

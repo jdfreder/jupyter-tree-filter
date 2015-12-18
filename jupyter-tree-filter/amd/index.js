@@ -17,10 +17,10 @@ define(['exports'], function (exports) {
         });
     }
 
-    function load_ipython_extension(el) {
+    function load_ipython_extension() {
         var input = document.createElement('input');
         input.setAttribute('type', 'text');
-        el.appendChild(input);
+        document.querySelector('#notebook_list_header').appendChild(input);
 
         input.onkeyup = function () {
             filterRows(input.value);
