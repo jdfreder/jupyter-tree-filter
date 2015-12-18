@@ -1,6 +1,6 @@
 {
   "name": "jupyter-tree-filter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Jupyter extension that allows you to filter items in the tree view (aka the dashboard).",
   "main": "lib/index.js",
   "scripts": {
