@@ -1,0 +1,2 @@
+graft jupyter-tree-filter
+include package.json
