@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 import json
 
 npm_package = json.load(open('./package.json', 'r'))
